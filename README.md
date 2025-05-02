@@ -91,10 +91,6 @@ The application will be available at `http://localhost:5173`
 
 This project is licensed under the MIT License.
 
-## Screenshots
-
-[Add your application screenshots here]
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
