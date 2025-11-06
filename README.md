@@ -93,7 +93,8 @@ This project is licensed under the MIT License.
 
 ## Screenshots
 
-[Add your application screenshots here]
+![alt text](image-1.png)
+![alt text](image.png)
 
 ## Contributing
 

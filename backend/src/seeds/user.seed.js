@@ -103,11 +103,19 @@ const seedUsers = [
 const seedDatabase = async () => {
   try {
     await connectDB();
+    console.log("Connected to MongoDB");
 
+    // Clear existing users
+    await User.deleteMany({});
+    console.log("Cleared existing users");
+
+    // Insert new users
     await User.insertMany(seedUsers);
     console.log("Database seeded successfully");
+    process.exit(0);
   } catch (error) {
     console.error("Error seeding database:", error);
+    process.exit(1);
   }
 };
 
