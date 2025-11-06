@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: chat-app-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://akshat2gupta:TC1pCwAILYczlT2Z@cluster0.li20fkk.mongodb.net/streamify_db
+      - key: JWT_SECRET
+        value: 1234567890abcdef1234567890abcdef
+      - key: CLOUDINARY_CLOUD_NAME
+        value: dahpu9gn8
+      - key: CLOUDINARY_API_KEY
+        value: 626368916614861
+      - key: CLOUDINARY_API_SECRET
+        value: zgsa0wE3AJ6zhXoOiVWggzP7DUY
+      - key: NODE_ENV
+        value: production
