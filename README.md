@@ -39,7 +39,7 @@ A modern real-time chat application built with MERN stack (MongoDB, Express.js, 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/real-time-chat.git
+git clone https://github.com/Akshat2gupta/Realtimechat-v1.git
 cd real-time-chat
 ```
 
@@ -58,12 +58,12 @@ npm install
 4. Set up environment variables
 ```bash
 # In backend/.env
-PORT=5000
+PORT=5001
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 
 # In frontend/.env
-VITE_SERVER_URL=http://localhost:5000
+VITE_SERVER_URL=http://localhost:5001
 ```
 
 ### Running the Application
@@ -91,17 +91,6 @@ The application will be available at `http://localhost:5173`
 
 This project is licensed under the MIT License.
 
-## Screenshots
-
-![alt text](image-1.png)
-![alt text](image.png)
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
